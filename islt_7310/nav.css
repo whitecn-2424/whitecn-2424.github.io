@@ -2,7 +2,6 @@
      list-style-type: none; 
     }
     #nav_menu ul li { float: left; 
-    margin-right: 10px; /* Add margin to create spacing between items */
     } 
     #nav_menu ul li a {
 text-align: center;
