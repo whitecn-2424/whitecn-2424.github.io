@@ -3,7 +3,6 @@
     }
     #nav_menu ul li { float: left; 
     margin-right: 10px; /* Add margin to create spacing between items */
-    width: 100%;
     } 
     #nav_menu ul li a {
 text-align: center;
