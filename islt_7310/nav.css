@@ -2,6 +2,7 @@
      list-style-type: none; 
     }
     #nav_menu ul li { float: left; 
+    margin-right: 10px; /* Add margin to create spacing between items */
     } 
     #nav_menu ul li a {
 text-align: center;
@@ -12,7 +13,7 @@ text-decoration: none;
 background-color: #08367E;
 color: white;
 font-weight: bold;
-border-right: 2px solid white; 
+border-right: 5px solid white; 
 }
 #nav_menu ul li a.lastitem { 
     border-right: none; 
