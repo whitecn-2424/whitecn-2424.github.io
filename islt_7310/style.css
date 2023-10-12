@@ -28,3 +28,13 @@ margin-bottom : 10px;
   padding-left: 1em; /* Add a padding to align text after the hanging indent */
   margin-bottom: 10px; /* Adjust the spacing between references */
 }
+
+/* Style for unvisited links */
+a:link {
+  color: #005200; /* Set the color you want for unvisited links */
+}
+
+/* Style for visited links */
+a:visited {
+  color: #6B6B6B; /* Set the color you want for visited links */
+}
