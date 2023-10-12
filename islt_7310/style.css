@@ -254,7 +254,7 @@ article {
 
 /* Tablet styles (for screens between 769px and 1025px) */
 @media (min-width: 769px) and (max-width: 1025px) {
-  .box.sidebar h2, .box.footer h2 {
+  .box.sidebar h2, .box.footer h2, p {
     font-size: 20px; /* Adjust the font size as needed for .box.sidebar h2 and .box.footer h2 on tablet screens */
   }
 
@@ -265,7 +265,7 @@ article {
 
 /* Phone styles (for screens up to 768px, typical phone screens) */
 @media (max-width: 768px) {
-  .box.sidebar h2, .box.footer h2 {
+  .box.sidebar h2, .box.footer h2, p {
     font-size: 18px; /* Adjust the font size as needed for .box.sidebar h2 and .box.footer h2 on phone screens */
   }
 
