@@ -1,3 +1,30 @@
 h1 {
-    color:#08367E;
+color : #08367E;
+}
+h2 {
+color : #81018A;
+}
+.reflist {
+font-family : "Arial";
+font-size : 12pt;
+line-height : 2;
+}
+.reflist {
+list-style-type : none;
+padding-left : 0;
+margin-bottom : 10px;
+}
+
+
+/* Style for MLA format references */
+.mla-references {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.mla-references li {
+  text-indent: -1em; /* Set a negative text indent for the hanging indent */
+  padding-left: 1em; /* Add a padding to align text after the hanging indent */
+  margin-bottom: 10px; /* Adjust the spacing between references */
 }
