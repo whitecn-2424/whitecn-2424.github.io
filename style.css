@@ -20,6 +20,12 @@ h3 {
   font-size: 1.5em; /* Adjust the font size as needed */
 }
 
+blockquote {
+font-family: "kari-pro-wide", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
 .reflist {
 font-family : "Arial";
 font-size : 12pt;
@@ -347,3 +353,26 @@ article {
     padding-left: 20px;
 }
 
+@page about.html {
+  @media print {
+      
+  /* Make all font Black */
+  body {
+    color: black;
+    background-color: white;
+  }
+
+  /* Serif font */
+  body {
+    font-family: "Georgia", serif;
+  }
+
+  /* Make sure your 1 element using your custom font prints the custom font! */
+  blockquote {
+    font-family: "YourCustomFont";
+  }
+
+  /* adjust the printable margins to be 1" on all sides */
+  @page {
+    margin: 1in;
+  }
