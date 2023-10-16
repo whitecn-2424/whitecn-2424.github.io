@@ -20,6 +20,12 @@ h3 {
   font-size: 1.5em; /* Adjust the font size as needed */
 }
 
+blockquote {
+font-family: "kari-pro-wide", sans-serif;
+font-weight: 400;
+font-style: italic;
+}
+
 .reflist {
 font-family : "Arial";
 font-size : 12pt;
@@ -347,3 +353,16 @@ article {
     padding-left: 20px;
 }
 
+
+/* @media query for printing */
+@media print {
+    /* Additional print-specific styles for elements */
+    h1, p, ul, ol, blockquote, footer {
+        color: #000; /* Set text color to black for printing only */
+    }
+
+    /* Use your custom font for one element (e.g., h1) */
+    blockquote {
+        font-family: "Serif Font", serif;
+    }
+}
