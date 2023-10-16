@@ -353,16 +353,26 @@ article {
     padding-left: 20px;
 }
 
+@page about.html {
+  @media print {
+      
+  /* Make all font Black */
+  body {
+    color: black;
+    background-color: white;
+  }
 
-/* @media query for printing */
-@media print {
-    /* Additional print-specific styles for elements */
-    h1, p, ul, ol, blockquote, footer {
-        color: #000; /* Set text color to black for printing only */
-    }
+  /* Serif font */
+  body {
+    font-family: "Georgia", serif;
+  }
 
-    /* Use your custom font for one element (e.g., h1) */
-    blockquote {
-        font-family: "Serif Font", serif;
-    }
-}
+  /* Make sure your 1 element using your custom font prints the custom font! */
+  blockquote {
+    font-family: "YourCustomFont";
+  }
+
+  /* adjust the printable margins to be 1" on all sides */
+  @page {
+    margin: 1in;
+  }
