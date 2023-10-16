@@ -109,3 +109,18 @@ display : block;
 background-color : #1771ff;
 }
 
+/* print stylesheet */
+  @media print {
+      * { background: transparent !important;
+          color: black !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+      }
+      
+      #nav_menu
+      {
+          display: none;
+          margin-bottom: 0;
+          margin-top: 0;
+      }
+

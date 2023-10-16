@@ -26,6 +26,10 @@ font-weight: 400;
 font-style: italic;
 }
 
+.box.footer {
+    text-align: center;
+}
+
 .reflist {
 font-family : "Arial";
 font-size : 12pt;
@@ -353,26 +357,54 @@ article {
     padding-left: 20px;
 }
 
-@page about.html {
+/* print stylesheet */
   @media print {
+      * { background: transparent !important;
+          color: black !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+      }
       
-  /* Make all font Black */
-  body {
-    color: black;
-    background-color: white;
+        blockquote {
+    font-family: "kari-pro-wide";
   }
 
+      .box.sidebar {
+          display: none;
+      } 
+      
+      #nav_menu {
+          display: none;
+      } 
+      .video-container {
+          display:none;
+      }
+      
+      .box.footer {
+          display: none;
+      }
+      
+      header {
+          margin-bottom: 0;
+          margin-top: 0;
+          border: none;
+          text-align: center;
+      }
+      
+      #mainheader {
+          margin-bottom; 0;
+          margin-top: 0;
+      }
+      
+      main {
+          margin-bottom; 0;
+          margin-top: 0;
+      }
+  
   /* Serif font */
   body {
     font-family: "Georgia", serif;
   }
 
   /* Make sure your 1 element using your custom font prints the custom font! */
-  blockquote {
-    font-family: "YourCustomFont";
-  }
 
-  /* adjust the printable margins to be 1" on all sides */
-  @page {
-    margin: 1in;
-  }
