@@ -135,7 +135,9 @@ z-index: 5;
 
 /* table style */
 table.my-table, table.my-table th, table.my-table td {
+    color: white;
   border: 1px solid;
+border-collapse: collapse;
 }
 
 table.my-table th, table.my-table td {
@@ -159,6 +161,8 @@ table.my-table tr:nth-child(odd) {
 table.my-table td {
   border: 1px solid black inline;
 }
+
+table.my-table { border-collapse: collapse;}
 
 /* CSS for vertical form layout */
 .form-group {
