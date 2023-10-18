@@ -134,25 +134,28 @@ z-index: 5;
 }
 
 /* table style */
+table.my-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
 table.my-table, table.my-table th, table.my-table td {
     color: white;
   border: 1px solid;
 border-collapse: collapse;
 }
 
-table.my-table th, table.my-table td {
-  padding: 15px;
-  text-align: left;
-}
 
-table.my-table td {
+table.my-table td, table.may-table th {
   text-align: center;
+    padding: 15px;
 }
 
 table.my-table tr:nth-child(even) {
-    background-color: #f2f2f2;}
+    background-color: darkgray;}
 table.my-table tr:nth-child(odd) {
-    background-color: #003300}
+    background-color:  #006633}
     
     table.my-table {
   border: 1px solid black !important;
@@ -450,7 +453,57 @@ article {
 .box.sidebar, .box.footer {
     padding-left: 20px;
 }
+/* Media queries for responsive layout */
 
+/* Tablet styles (for screens between 769px and 1025px) */
+@media (min-width: 769px) and (max-width: 1025px) {
+  table.my-table {
+    font-size: 20px; /* Adjust font size for tablet screens */
+  }
+}
+
+/* Phone styles (for screens up to 768px, typical phone screens) */
+@media (max-width: 768px) {
+  table.my-table {
+    font-size: 18px; /* Adjust font size for phone screens */
+  }
+
+  /* Center-align table data on small screens */
+  table.my-table td {
+    text-align: center;
+  }
+}
+
+/* Styles for desktop screens */
+@media screen and (min-width: 1026px) {
+  .contact-form-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form */
+  }
+
+  /* Adjust other styling as needed for desktop screens */
+  /* For example, you can adjust font sizes, padding, and form element widths */
+}
+
+/* Styles for tablet screens */
+@media screen and (min-width: 769px) and (max-width: 1025px) {
+  .contact-form-container {
+    max-width: 80%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form */
+  }
+
+  /* Adjust other styling as needed for tablet screens */
+  /* You might need to reduce font sizes, adjust padding, and form element widths */
+}
+
+/* Styles for phone screens */
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    max-width: 90%; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form */
+  }  
+    
+    
 /* print stylesheet */
   @media print {
       * { background: transparent !important;
