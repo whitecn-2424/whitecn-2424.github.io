@@ -15,6 +15,7 @@ background-color : #08367E;
 color : white;
 font-weight : bold;
 border-right : 5px solid white;
+    border-bottom: 5px;
 margin-bottom : 0;
 }
 #nav_menu ul li a.lastitem {
@@ -37,7 +38,7 @@ font-size : 16px;
 border-right : 5px solid white;
 margin : 0;
     text-decoration : none;
-    border-bottom: none;
+    border-bottom: 5px;
     border-top: none;
 }
 
