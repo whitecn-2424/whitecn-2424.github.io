@@ -1,12 +1,3 @@
-<!--
-
-*****************************************************************************
-
-Comment Title:  Home Index Page
-
-******************************************************************************
-
--->
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -19,21 +10,23 @@ Comment Title:  Home Index Page
         font-family: "Arial", "sans-serif";
         }
     </style>
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>About</title>
+    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
      <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="stylesheet" href="https://use.typekit.net/qtk3tys.css">
-    <link rel="stylesheet" href="https://use.typekit.net/qtk3tys.css">
+    <link rel="foot-back" href="dots.jpeg">
 </head>
     
 
     
 <body>
     
-   <nav id="nav_menu">
+     <nav id="nav_menu">
   <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
@@ -51,35 +44,60 @@ Comment Title:  Home Index Page
   </ul>
 </nav>
     
-<main>
-     <header>
+   <div class="contactpage">
+  
+    <main>
+        <header>
             <div id="mainheader">
-        <h1>Welcome, Welcome!</h1>
-         </div>
-    </header>
+                 <h1>Contact Form</h1>
+            </div>
+        </header>
         
     <div class="box sidebar">
-    <h2>Join us, there's no gatekeeping here!</h2>
+            <h2>We would love to hear from you!<br><br>
+             
+            </h2>   
     </div>
-    
+        
+        <!-- contact content -->
         <article>
             <div class="box content">
-    <p>Welcome to Level Up Budgeting, where we aim to educate ordinary people on personal finance 
-        concepts to increase financial literacy and heal the opportunity gap.</p>
-
-   
-        <p>Level Up Budgeting is your trusted friend in the finance industry. Have you ever 
-        searched for personal finance advice only to find useless and impractical information 
-        that caters to wealthy folks? We understand your frustrations and are here to offer our 
-        support. Level Up Budgeting recognizes everyday people need personal finance planning 
-        help, too. Whether you are stuck in the paycheck-to-paycheck cycle, newly out on your own, 
-        or struggling to meet your financial goals, Level Up Budgeting is for you! 
-        We are passionate about increasing financial literacy in an inclusive way. 
-        This is a judgment free zone with zero gatekeeping. We are all in this together!</p><br><br>
+                 <div class="contact-form-container">
+        
+        <form action="mailto:email@missouri.edu?Subject=Here%20is%20my%20subject" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" placeholder="Enter your first name" required>
             </div>
+
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" placeholder="Enter your last name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit-button">Send</button>
+            </div>
+        </form>
+    </div>
+            </div>
+            <br>
+  
+                           
         </article>
     </main>
-       <footer>
+    
+    <footer>
         <div class="box footer">
             <br>
            <blockquote><q>Havin' money's not everythin', not havin' it is.</q> - Kanye West </blockquote>
@@ -89,8 +107,10 @@ Comment Title:  Home Index Page
     
 <footer>
     <div class="back-img-set"> 
-        
-       <br>
+       
+    
+   
+    <br>
      <div class="contact-info">
          
          <img class="pic" src="images/phone-3d.png" alt="Phone Icon" width="24" height="24">
@@ -101,11 +121,12 @@ Comment Title:  Home Index Page
          <img class="picbig" src="images/mail-3d.png" alt="Phone Icon" width="24" height="24">
         whitecn@missouri.edu
     </div>
-
     <br>
     <p>&copy; Copyright 2023 Chevi White Productions.</p>
+       
      </div>
 </footer>
        
+</div>
 </body>
 </html>

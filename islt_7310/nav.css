@@ -15,7 +15,7 @@ background-color : #08367E;
 color : white;
 font-weight : bold;
 border-right : 5px solid white;
-margin-bottom : 50px;
+margin-bottom : 0;
 }
 #nav_menu ul li a.lastitem {
 border-right : none;
@@ -32,11 +32,13 @@ font-weight : bold;
 background-color : #08367E;
 color : white;
 padding : 1em 0;
-    margin-bottom : 10px;
+    margin-bottom : 13px;
 font-size : 16px;
-border : none;
+border-right : 5px solid white;
 margin : 0;
-margin-bottom : 10px;
+    text-decoration : none;
+    border-bottom: none;
+    border-top: none;
 }
 
 #nav_menu .dropdown {
@@ -51,7 +53,6 @@ position : absolute;
 background-color : #1771ff;
 min-width : 175px;
 overflow : auto;
-box-shadow : 0 8px 16px 0 rgb(0, 0, 0, 0.2);
 z-index : 1;
 top : 100%;
 }
