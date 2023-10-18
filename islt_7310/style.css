@@ -18,20 +18,20 @@ h3 {
 
 .box.sidebar h2 {
   font-size: 1.5em;
-    background-color: #33ff99;/* Adjust the font size as needed */
+    background-color: #ccffcc;/* Adjust the font size as needed */
 }
 
 footer {
-    background-color: #33ff99;
+    background-color: #ccffcc;
 }
 
 form {
     font-size: 14px; /* Adjust the font size as needed */
-     background-color: #33ff99;
+     background-color: #ccffcc;
 }
 
 body {
-     background-color: #33ff99;
+     background-color: #ccffcc;
 }
 
 
@@ -43,7 +43,7 @@ font-style: italic;
 
 .box.footer {
     text-align: center;
-    background-color: #33ff99;
+    background-color: #ccffcc;
 }
 
 .reflist {
@@ -97,7 +97,7 @@ h2 {
 
 /* Add a new CSS class for the video container */
 .video-container {
-    background-color: #33ff99;
+    background-color: #ccffcc;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -219,11 +219,11 @@ body {
 }
 
 .box content {
-    background-color: #33ff99;
+    background-color: #ccffcc;
 }
 
 .contact-form-container {
-    background-color: #33ff99;
+    background-color: #ccffcc;
 }
 
 h1, p {
@@ -298,7 +298,7 @@ body {
 }
 
 header, aside, article, footer {
-  background-color: #33ff99;
+  background-color: #ccffcc;
   color: #000066;
   border-radius: 5px;
   padding: 20px;
